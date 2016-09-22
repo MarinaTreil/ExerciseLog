@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Visit]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Date] SMALLDATETIME NOT NULL, 
+    [Alone] BIT NOT NULL DEFAULT 0, 
+    [Length] NCHAR(10) NULL
+)
